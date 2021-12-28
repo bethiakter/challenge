@@ -6,7 +6,7 @@ for num in list1:
             break
         list2.append(num)
 for num in list2 :
-    while num in list1:
+    if num in list1:
         list1.remove(num)
 print(list1)
 
